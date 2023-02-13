@@ -30,10 +30,16 @@ header nav ul li{
 header nav ul li:last-of-type{
     margin-right: 0;
 }
-header ul li a img {
-    padding-right: 26px;
+header ul li a img{
+    margin-right: 26px;
     position: relative;
     bottom: 10px;
+}
+.img2{
+    margin-right: 20px;
+}
+.img3{
+    margin-right: 0;
 }
 header nav ul li a{
     font-family: 'Roboto', sans-serif;
@@ -122,6 +128,9 @@ position: relative;
 .best_sellers .container_flex{
     display: flex;
     justify-content: space-between;
+}
+.best_sellers article{
+    max-width: 315px;
 }
 .best_sellers article h5{
     font-family: 'Roboto', sans-serif;
