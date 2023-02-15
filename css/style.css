@@ -162,4 +162,32 @@ position: relative;
     color: #000000;
     text-align: center;
     display: block;
+    padding-bottom: 80px;
+}
+.owl-stage {
+    display: flex;
+    left: 20px;
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 11px;
+    display: flex;
+    justify-content: center;
+}
+.owl-dots span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #343434;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.owl-dots .active span{
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: burlywood;
+    border-radius: 50%;
 }
