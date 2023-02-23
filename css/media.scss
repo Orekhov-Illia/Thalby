@@ -1,6 +1,8 @@
+$black_color: black;
+$white_color: white;
+$main_font:'Roboto', sans-serif;
+
 @media only screen and (max-width: 767px) {
-  #burger-menu {
-    display: block; }
 
   #menu {
     z-index: 1;
@@ -13,26 +15,28 @@
     opacity: 0;
     text-align: center;
     padding-top: 20px;
-    transition: all 0.3s ease-in-out; }
-
+    transition: all 0.3s ease-in-out;
+  }
   #menu.overlay {
     visibility: visible;
     opacity: 95%;
     padding-top: 100px;
     background: burlywood;
-    z-index: 5; }
-
+    z-index: 5;
+  }
   #menu ul li {
     list-style: none;
-    text-align: center; }
-
+    text-align: center;
+  }
   #menu a {
-    color: black;
+    color: $black_color;
     display: block;
     font-size: 44px;
     margin-bottom: 60px;
     text-decoration: none;
     opacity: 1;
-    font-family: 'Roboto', sans-serif;
+    font-family: $main_font;
     font-style: normal;
-    font-weight: 700; } }
+    font-weight: 700;
+  }
+}

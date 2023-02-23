@@ -1,0 +1,271 @@
+@import url(owl.carousel.css);
+@import url(owl.theme.default.css);
+#burger-menu {
+  cursor: pointer;
+  height: 27px;
+  width: 71px;
+  overflow: visible;
+  position: relative;
+  z-index: 6;
+  right: 32px;
+  bottom: 10px;
+  display: none; }
+  @media screen and (max-width: 767px) {
+    #burger-menu {
+      display: block; } }
+  #burger-menu span, #burger-menu span:before, #burger-menu span:after {
+    background: black;
+    display: block;
+    height: 4px;
+    opacity: 1;
+    position: absolute;
+    transition: 0.3s ease-in-out; }
+  #burger-menu span {
+    right: 0;
+    top: 13px;
+    width: 27px; }
+    #burger-menu span:before {
+      content: "";
+      left: 0;
+      top: -10px;
+      width: 16px; }
+    #burger-menu span:after {
+      content: "";
+      left: 0;
+      top: 10px;
+      width: 20px; }
+
+#burger-menu.close span {
+  transform: rotate(-45deg);
+  top: 13px;
+  width: 27px; }
+  #burger-menu.close span:before {
+    top: 0;
+    transform: rotate(90deg);
+    width: 27px; }
+  #burger-menu.close span:after {
+    top: 0;
+    left: 0;
+    transform: rotate(90deg);
+    opacity: 0;
+    width: 0; }
+
+.container {
+  max-width: 1064px;
+  margin: auto; }
+
+header {
+  padding: 15px 0 0 0; }
+  header .container {
+    display: flex;
+    justify-content: space-between; }
+  header .logo {
+    position: absolute;
+    left: calc(50% - 40px);
+    top: 16px; }
+    header .logo .logo_img {
+      top: 0; }
+  @media screen and (max-width: 411px) {
+    header .logo {
+      position: absolute;
+      left: calc(30% - 40px);
+      top: 16px; } }
+  header .icons {
+    display: flex;
+    list-style: none;
+    align-items: center; }
+  header img {
+    margin-right: 26px;
+    position: relative;
+    bottom: 10px; }
+  header .img2 {
+    margin-right: 20px; }
+  header .img3 {
+    margin-right: 0; }
+  header .nav .menu_list {
+    display: flex;
+    list-style: none;
+    align-items: center; }
+  @media screen and (max-width: 767px) {
+    header .nav .menu_list {
+      display: block; } }
+    header .nav .menu_list li {
+      margin-right: 28px; }
+      header .nav .menu_list li:last-of-type {
+        margin-right: 0; }
+      header .nav .menu_list li a {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        color: black;
+        text-decoration: none; }
+
+.main_banner {
+  background: #F0EFEB; }
+  .main_banner .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .main_banner .container_img {
+    position: relative;
+    right: -100px; }
+    .main_banner .container_img img {
+      z-index: 2; }
+  .main_banner article {
+    max-width: 544px; }
+    .main_banner article h1 {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 70px;
+      color: black;
+      z-index: 2; }
+    .main_banner article p {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      color: black;
+      padding-top: 42px;
+      padding-bottom: 26px; }
+    .main_banner article a {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      color: white;
+      background: black;
+      border: 1px solid black;
+      padding: 7px 23px;
+      border-radius: 100px;
+      text-decoration: none; }
+
+.best_sellers {
+  padding: 60px 0 248px; }
+  .best_sellers h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: black;
+    padding-bottom: 27px; }
+    .best_sellers h2:last-of-type {
+      padding-bottom: 52px; }
+  .best_sellers p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+    padding-bottom: 47px; }
+    .best_sellers p:last-of-type {
+      padding-bottom: 88px; }
+  .best_sellers .container_flex {
+    display: flex;
+    justify-content: space-between; }
+  .best_sellers article {
+    max-width: 315px; }
+    .best_sellers article h5 {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: black;
+      padding: 27px 0 17px; }
+    .best_sellers article h6 {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: black;
+      padding-bottom: 10px; }
+    .best_sellers article a {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-decoration-line: underline;
+      color: black;
+      text-align: center;
+      display: block;
+      padding-bottom: 80px; }
+
+.owl-stage {
+  display: flex;
+  left: 20px; }
+
+.owl-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 11px;
+  display: flex;
+  justify-content: center; }
+  .owl-dots span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: #343434;
+    border-radius: 50%;
+    margin-right: 15px; }
+  .owl-dots .active span {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: burlywood;
+    border-radius: 50%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; }
+
+@media only screen and (max-width: 767px) {
+  #menu {
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+    height: 0;
+    visibility: hidden;
+    opacity: 0;
+    text-align: center;
+    padding-top: 20px;
+    transition: all 0.3s ease-in-out; }
+
+  #menu.overlay {
+    visibility: visible;
+    opacity: 95%;
+    padding-top: 100px;
+    background: burlywood;
+    z-index: 5; }
+
+  #menu ul li {
+    list-style: none;
+    text-align: center; }
+
+  #menu a {
+    color: black;
+    display: block;
+    font-size: 44px;
+    margin-bottom: 60px;
+    text-decoration: none;
+    opacity: 1;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700; } }
